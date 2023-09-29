@@ -615,15 +615,6 @@ margin-bottom: 50%;
 }
 .slider-nav{
     display: none;
-    column-gap: 0.7rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 2%;
-    transform: translateX(-50%);
-    z-index: 15;
-    margin-left: 36%;
-        margin-bottom: 28%;
-    color: #1a1a1a;
 }
 .slider-nav a{
     width: 0.8rem;
