@@ -573,6 +573,136 @@ section#footer{
  
  }
 
+@media only screen and (max-width : 450px){
+
+section#footer{
+    padding-top: 601%;
+}
+
+    button .dutch,
+    button .engels{
+         display: none;
+     }
+     #searchbar{
+         margin-left: 12%;
+         padding:15px;
+         border-radius: 10px;
+         margin-top: 8%;
+        }
+        
+        footer .social_icon,
+        footer #navbar{
+            position: relative;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            flex-wrap: wrap;
+        }
+        
+        footer .social_icon li,
+        footer #navbar{
+            list-style: none;
+        }
+        
+        
+        .shop{
+            height: 160vh;
+        }
+
+        footer{
+            position: relative;
+            width: 100%;
+            background:rgb(142, 190, 191);
+            min-height: 10px;
+            padding: 50px 50px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           }
+
+           
+     
+        
+        body{
+            height: 590vh;
+            background-color: #0a6a5f66;
+        }
+     
+        input[type=text]:focus {
+            width: 60%;
+        }
+        
+        input[type=text] {
+            width: 48%;
+            border-radius: 35%;
+            -webkit-transition: width 0.15s ease-in-out;
+            transition: width 0.15s ease-in-out;
+        }
+        
+        .zoekbar{
+            background-color: transparent;
+            height: 70vh;
+        }
+    
+        .shop-content{
+            display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(320px, auto));
+    padding-top: 37%;
+     gap: 2.5rem;
+ }
+ /* #product-box2{
+ position: relative;
+ transition: 0.4s;
+ border: 1px solid rgb(0, 0, 0);
+ } */
+ 
+ /* #product-box2:hover
+ {
+     padding: 10px;
+     border: 1px solid rgb(0, 0, 0);
+     transition: 0.4s;
+ } */
+ 
+ 
+ #product-box2{
+     display: none;
+ }
+ 
+ .toggle-button{
+     position: absolute;
+     top: .75rem;
+     right: 1rem;
+     display: none;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 31px;
+     height: 21px;
+ }
+ 
+ .logo{
+     height: 90px;
+     width:110px;
+     float: left;
+     margin-left: -30%;
+ }
+ 
+ .toggle-button .bar{
+     height: 3px;
+     width: 100%;
+     background-color: white;
+     border-radius: 10px;
+ }
+ 
+ .dutch, .engels{
+     display: none;
+ }
+ 
+ }
+
+
 @media only screen and (max-width :810px){
 
     button .dutch,
