@@ -158,7 +158,7 @@ left: 20px;
 }
 
 #hero button{
-    background-image: url(/assets/button.png);
+    background-image: url(button.png);
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -613,7 +613,7 @@ margin-bottom: 50%;
    transition: 2s;
 }
 .slider-nav{
-    display: flex;
+    display: none;
     column-gap: 0.7rem;
     position: absolute;
     bottom: 1.25rem;
