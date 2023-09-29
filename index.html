@@ -1,30 +1,248 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kunstgallerij</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanjelle</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
-<!-- partial:index.partial.html -->
+   
+       <section id="header">
+         
+         <a href="./index.html"><img src="/assets/unnamed.jpg" class="logo" alt=""></a>
+        <button class="dutch" onclick = "switchLang('nl')"> Nederlands </button>
+        <button class="engels" onclick = "switchLang('en')"> English  </button>
 
-<button class="order" ><span class="default" style="font-size: xx-large;">📦</span><span class="success"><svg viewbox="0 0 12 10">
-            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-        </svg></span>
-    <div class="box"></div>
-    <div class="truck">
-        <div class="back"></div>
-        <div class="front">
-            <div class="window"></div>
-        </div>
-        <div class="light top"></div>
-        <div class="light bottom"></div>
+  
+             <ul id="navbar">
+                <li><a id="active"   href="index.html">overzicht</a></li>
+                <li><a  id="active2" href="/src/kunstwerken.html">kunstwerken</a></li>
+                <li><a  id="active3" href="/src/contact.html">contact</a></li>
+                <li><a  id="active4" href="/src/opmaatgemaakt.html">op maat</a></li>
+               
+              </ul>
+
+    </section>
+
+    <section id="hero">
+        <h4 id="heroh4">Kunstwerken & Kunstenaars</h4>
+        <h2 id="heroh2">Zij die hun passie willen tonen.</h2>
+        <h1 id="heroh1">Als je echte kunst zoekt, <br/> dan zit je op de juiste site!</h1>
+        <p id="herop">Nu ook gepersonaliseerde kunst!</p>
+        <a href="kunstwerken.html"><button style="cursor: pointer;" id="btn">klik voor kunst</button></a>
+       <div class="slider-wrapper">
+        <div class="slider">
+      <img class="image " id="image1" src="/assets/IMG_0407.jpeg"/>
+      
+        <img class="image" id="image2" src="/assets/IMG_1077.jpeg">
+
+        <img class="image" id="image3" src="/assets/IMG_1535.jpeg">
+
+        <img class="image" id="image4" src="/assets/IMG_1605.jpeg">
+
+        <img class="image" id="image5" src="/assets/IMG_2875.jpeg">
+
+        <img class="image" id="image6" src="/assets/IMG_2915.jpeg">
+
+        <img class="image" id="image7" src="/assets/IMG_3111.jpeg">
+
+        <img class="image" id="image8" src="/assets/IMG_4097.jpeg">
+
+        <img class="image" id="image9" src="/assets//IMG_3596.jpeg">
+      </div>
+      </div>
     </div>
-    <div class="lines"></div>
-</button>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <script  src="script.js"></script>
+      <div class="slider-nav">
+        <a href="#image1"></a>
+        <a href="#image2"></a>
+        <a href="#image3"></a>
+        <a href="#image4"></a>
+        <a href="#image5"></a>
+        <a href="#image6"></a>
+        <a href="#image7"></a>
+        <a href="#image8"></a>
+        <a href="#image9"></a>
+      </div>
 
+
+    </section>
+
+
+    <section class="stamboom" id="stamboom">
+        <div class="Eric">
+       <a href="/src/meerinfo.html"><h1  data-aos="fade-up" data-aos-duration="2400">Eric</h1></a>  
+       <i class='bx bx-downvote'  data-aos="fade-down" data-aos-duration="2200"></i>
+       <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200"></i>
+       <a href="/src/kunstwerken.html" style="text-decoration: none;"><h3 id="wh15" data-aos="fade-right" data-aos-duration="2400" style="  color:rgba(10, 39, 97, 0.583); padding-left: 54%; display: flex; margin-top: -3%;">wenskaartje</h3></a> 
+       <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" ></i>
+       <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh14" style=" color:rgba(10, 39, 97, 0.583); padding-left: 35%; display: flex; margin-top: -1.5%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+       <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200" style="padding-left: 19%; margin-top: -1%;"></i>
+       <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh13"style=" color:rgba(10, 39, 97, 0.583); padding-left: 61%; display: flex; margin-top: -3%;" data-aos="fade-right" data-aos-duration="2400">wenskaartje</h3></a>   
+       <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" style="margin-left: 42.5%;"></i>    
+       <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh12" style=" color:rgba(10, 39, 97, 0.583); padding-left: 32.5%; display: flex; margin-top: -2%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+    </div>
+
+
+    <div class="Eric" >
+       <div class="elke"><a href="/src/meerinfo.html"><h1  data-aos="fade-up" data-aos-duration="2400" style="margin-top: 3">Elke</h1></a></div>  
+        <i class='bx bx-downvote'  data-aos="fade-down" data-aos-duration="2200" ></i>
+        <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200"></i>
+        <a href="/src/kunstwerken.html" style="text-decoration: none;"><h3 id="wh11" data-aos="fade-right" data-aos-duration="2400" style="  color:rgba(10, 39, 97, 0.583); padding-left: 54%; display: flex; margin-top: -3%;">wenskaartje</h3></a> 
+        <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" ></i>
+        <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh10" style=" color:rgba(10, 39, 97, 0.583); padding-left: 35%; display: flex; margin-top: -1.5%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+        <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200" style="padding-left: 19%; margin-top: -1%;"></i>
+        <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh9" style=" color:rgba(10, 39, 97, 0.583); padding-left: 61%; display: flex; margin-top: -3%;" data-aos="fade-right" data-aos-duration="2400">wenskaartje</h3></a>   
+        <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" style="margin-left: 42.5%;"></i>    
+        <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh8" style=" color:rgba(10, 39, 97, 0.583); padding-left: 32.5%; display: flex; margin-top: -2%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+     </div>
+
+
+     <div class="Eric" >
+        <div class="david"><a href="/src/meerinfo.html"><h1  data-aos="fade-up" data-aos-duration="2400" style="margin-top: 3">David</h1></a></div>  
+         <i class='bx bx-downvote'  data-aos="fade-down" data-aos-duration="2200" ></i>
+         <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200"></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;"><h3 id="wh7" data-aos="fade-right" data-aos-duration="2400" style="  color:rgba(10, 39, 97, 0.583); padding-left: 54%; display: flex; margin-top: -3%;">wenskaartje</h3></a> 
+         <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" ></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh0" style=" color:rgba(10, 39, 97, 0.583); padding-left: 35%; display: flex; margin-top: -1.5%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+         <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200" style="padding-left: 19%; margin-top: -1%;"></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh2" style=" color:rgba(10, 39, 97, 0.583); padding-left: 61%; display: flex; margin-top: -3%;" data-aos="fade-right" data-aos-duration="2400">wenskaartje</h3></a>   
+         <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" style="margin-left: 42.5%;"></i>    
+         <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh1" style=" color:rgba(10, 39, 97, 0.583); padding-left: 32.5%; display: flex; margin-top: -2%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+      </div>
+
+
+      
+     <div class="Eric" >
+        <div class="Bram"><a href="/src/meerinfo.html"><h1  data-aos="fade-up" data-aos-duration="2400" style="margin-top: 3">Bram</h1></a></div>  
+         <i class='bx bx-downvote'  data-aos="fade-down" data-aos-duration="2200" ></i>
+         <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200"></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;"><h3 id="wh6" data-aos="fade-right" data-aos-duration="2400" style="  color:rgba(10, 39, 97, 0.583); padding-left: 54%; display: flex; margin-top: -3%;">wenskaartje</h3></a> 
+         <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" ></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh5" style=" color:rgba(10, 39, 97, 0.583); padding-left: 35%; display: flex; margin-top: -1.5%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+         <i class='bx bx-trending-down' data-aos="fade-left" data-aos-duration="2200" style="padding-left: 19%; margin-top: -1%;"></i>
+         <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh4" style=" color:rgba(10, 39, 97, 0.583); padding-left: 61%; display: flex; margin-top: -3%;" data-aos="fade-right" data-aos-duration="2400">wenskaartje</h3></a>   
+         <i class='bx bx-subdirectory-left' data-aos="fade-right" data-aos-duration="2200" style="margin-left: 42.5%;"></i>    
+        <a href="/src/kunstwerken.html" style="text-decoration: none;" ><h3 id="wh3" style=" color:rgba(10, 39, 97, 0.583); padding-left: 32.5%; display: flex; margin-top: -2%;" data-aos="fade-left" data-aos-duration="2400">wenskaartje</h3></a>
+      </div>
+
+
+     <div class="kunstwerkenimage">
+       
+     </div>
+
+
+     <div class="kunstwerkenimage2">
+      
+     </div>
+
+    </section>
+
+    <section id="footer">
+      <footer>
+      
+      
+      
+          <ul class="social_icon">
+              <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+              <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+              <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+          </ul>
+       <ul id="navbar">
+        <li><a id="active5"   href="index.html">overzicht</a></li>
+        <li><a  id="active6" href="/src/kunstwerken.html">kunstwerken</a></li>
+        <li><a  id="active7" href="/src/contact.html">contact</a></li>
+        <li><a  id="active8" href="/src/opmaatgemaakt.html">op maat</a></li>
+    </ul>
+          </ul>
+          <p>©2023 Dubois Media Development | All Rights Reserved</p>
+      </footer>
+      </section>
+    <script>
+      let languageContent = {
+        "nl": {
+          "wh0": "wenskaartje",
+          "wh1":"wenskaartje",
+          "wh2":"wenskaartje",
+          "wh3":"wenskaartje",
+          "wh4":"wenskaartje",
+          "wh5":"wenskaartje",
+          "wh6":"wenskaartje",
+           "wh6":"wenskaartje", 
+           "wh7":"wenskaartje",
+           "wh8":"wenskaartje",
+           "wh9":"wenskaartje",
+           "wh10":"wenskaartje",
+           "wh11":"wenskaartje",
+           "wh12":"wenskaartje",
+           "wh13":"wenskaartje",
+           "wh14":"wenskaartje",
+           "wh15":"wenskaartje",
+          "btn":"klik voor kunst",
+          "herop":"Nu ook gepersonaliseerde kunst!",
+          "heroh1":"Als je echte kunst zoekt,  <br/>  dan zit je op de juiste site!",
+          "heroh2":"Zij die hun passie willen tonen.",
+          "heroh4":"Kunstwerken & Kunstenaars",
+             "active": "overzicht",
+            "active2": "kunstwerken",
+            "active3": "contact",
+           "active4": "op maat gemaakt",
+           "active5": "overzicht",
+           "active6": "kunstwerken",
+           "active7": "contact",
+           "active8": "op maat gemaakt",
+        },
+       "en": {
+        "wh0": "greeting card",
+          "wh1":"greeting card",
+          "wh2":"greeting card",
+          "wh3":"greeting card",
+          "wh4":"greeting card",
+          "wh5":"greeting card",
+          "wh6":"greeting card",
+           "wh6":"greeting card", 
+           "wh7":"greeting card",
+           "wh8":"greeting card",
+           "wh9":"greeting card",
+           "wh10":"greeting card",
+           "wh11":"greeting card",
+           "wh12":"greeting card",
+           "wh13":"greeting card",
+           "wh14":"greeting card",
+           "wh15":"greeting card",
+        "btn":"click for art",
+        "herop":"Now also personalized art!",
+        "heroh1":"If you're looking for real art, <br/> then you're at the right site!",
+        "heroh2":"those who want to share their passion.",
+        "heroh4":"Art & Artists",
+        "active": "overzicht",
+          "active2": "art",
+          "active3": "contact us",
+          "active4": "custom made",
+          "active5": "home",
+          "active6": "art",
+          "active7": "contact us",
+          "active8": "custom made",
+       },
+      
+    }
+    function switchLang(lang) {
+       for (let key in languageContent[lang]) {
+          document.getElementById(key).innerHTML = languageContent[lang][key];
+       }
+    }
+    </script>
+
+   
+    <script src="index.js"></script>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
