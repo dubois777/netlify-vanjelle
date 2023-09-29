@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Vanjelle</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <section id="header">
+        
+        <button class="dutch" onclick = "switchLang('nl')"> Nederlands </button>
+        <button class="engels" onclick = "switchLang('en')"> English  </button>
+        
+        <div>
+            <ul id="navbar">
+                <li><a id="active"   href="index.html">overzicht</a></li>
+                <li><a  id="active2" href="/src/kunstwerken.html">kunstwerken</a></li>
+                <li><a  id="active3" href="/src/contact.html">contact</a></li>
+                <li><a  id="active4" href="/src/opmaatgemaakt.html">op maat gemaakt</a></li>
+                
+            </ul>
+            
+        </section>
+        
+        
+        <section class="checkout-page">
+            <div class="container">
+                <form action="">
+                    <div class="row">
+                        
+                        <div class="col">
+                            <h3 id="title">afreken adres</h3>
+                            
+                            <div class="inputBox">
+                                <span  id="naam">volledige naam</span>
+                                <input type="text" placeholder="✍️">
+                            </div>
+                            
+                            <div class="inputBox">
+                                <span id="email">e-mail</span>
+                                <input type="email" placeholder="✍️">
+                            </div>
+                            
+                            <div class="inputBox">
+                                <span id="address">Adres</span>
+                                <input type="text" placeholder="✍️">
+                            </div>
+                            
+                            <div class="inputBox">
+                                <span id="stad">stad</span>
+                                <input type="text" placeholder="✍️">
+                            </div>
+                            
+                            <div class="flex">
+                                <div class="inputBox">
+                                    <span id="land">Land</span>
+                                    <input type="text" placeholder="✍️">
+                                </div>
+                                <div class="inputBox">
+                                    <span id="postcode">postcode</span>
+                                    <input type="text" placeholder="✍️">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col">
+                            <h3 id="title1">betaal methode</h3>
+                            
+                            <div class="inputBox">
+                                <span id="kaart-naam">naam op kaart</span>
+                                <input type="text" placeholder="✍️">
+                            </div>
+                            
+                            <div class="inputBox">
+                <span id="credit-cart">credit-kaart nummer</span>
+                <input type="number" placeholder="✍️">
+            </div>
+            
+            <div class="inputBox">
+                <span id="exp">verval maand</span>
+                <input type="text" placeholder="✍️">
+            </div>
+            
+            <div class="inputBox">
+                <span id="year">verval jaar</span>
+                <input type="number" placeholder="✍️" >
+            </div>
+            
+            <div  class="flex">
+                <div class="inputBox">
+                    <span id="cvv">cvv</span>
+                    <input type="text" placeholder="✍️">
+                </div>
+            </div>
+            
+            <button class="order-placement"><a href="/order/index.html" style="font-size: x-large; font-weight: bold; width: 38vw; ">📦</a></button> 
+        </div>
+<!--         
+    <input id="submit" type="submit" style="font-size: x-large; font-weight: bold;"href="/order/"></a> value="📦" class="submit-btn"></input> -->
+</div>
+</form>
+
+
+</div>
+
+</section>
+
+<section id="footer">
+    <footer>
+        
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        
+        <a href="./index.html"><img src="/assets/unnamed.jpg" class="logo" alt=""></a>
+        <ul class="social_icon">
+            <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+            <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+            <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+        </ul>
+        <ul id="navbar">
+            <li><a id="active"   href="index.html">overzicht</a></li>
+            <li><a  id="active2" href="/src/kunstwerken.html">kunstwerken</a></li>
+            <li><a  id="active3" href="/src/contact.html">contact</a></li>
+            <li><a  id="active4" href="/src/opmaatgemaakt.html">op maat gemaakt</a></li>
+            
+        </ul>
+    </ul>
+    <p>©2023 Dubois Media Development | All Rights Reserved</p>
+</footer>
+</section>
+
+
+
+<script>
+            let languageContent = {
+                "nl": {
+                    "year": "verval jaar",
+                    "exp": "verval maand",
+                    "credit-cart": "credit-kaart nummer",
+                    "kaart-naam": "naam op kaart",
+                    "postcode": "postcode",
+                    "land":"land",
+                    "stad": "stad",
+                    "address": "adres",
+                    "naam":"volledige naam",
+                    "title1": "betaal methode",
+                    "title": "afreken adres",
+                    "active": "overzicht",
+                   "active2": "kunstwerken",
+                   "active3": "contact",
+                   "active4": "op maat gemaakt",
+                   "active5": "overzicht",
+                   "active6": "kunstwerken",
+                   "active7": "contact",
+                   "active8": "op maat gemaakt",
+
+                },
+                "en": {
+                    "year": "expiration year",
+                    "exp": "expiration month",
+                    "credit-cart": "cerdit-cart number",
+                    "kaart-naam": "cart name",
+                    "postcode":"postal code",
+                    "land": "country",
+                    "stad": "city",
+                    "address": "address",
+                    "naam":"full name",
+                    "title1": "pay method",
+                    "title": "billing adress",
+                    "active": "home",
+                  "active2": "art",
+                  "active3": "contact us",
+                  "active4": "custom made",
+                  "active5": "home",
+                  "active6": "art",
+                  "active7": "contact us",
+                  "active8": "custom made",
+               },
+              
+             
+         }
+    
+            function switchLang(lang) {
+               for (let key in languageContent[lang]) {
+                  document.getElementById(key).innerHTML = languageContent[lang][key];
+               }
+            }
+         </script>
+
+         <script src="checkout.js"></script>
+</body>
+</html>

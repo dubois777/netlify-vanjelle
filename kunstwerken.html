@@ -1,0 +1,219 @@
+<!DOCTYPE html8>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vanjelle</title>
+        <link rel="stylesheet" href="kunstwerken.css">
+        <script src="https://unpkg.com/boxicons@2.9.4/dist/boxicons.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <section id="header">
+            <a href="./index.html"><img  src="/assets/unnamed.jpg" class="logo" alt=""></a>
+            
+            <button class="dutch" onclick = "switchLang('nl')"> Nederlands </button>
+            <button class="engels" onclick = "switchLang('en')"> English  </button>
+            
+       
+            </a>
+         
+            <ul id="navbar">
+                    <li><a id="active"   href="index.html">overzicht</a></li>
+                    <li><a  id="active2" href="/src/kunstwerken.html">kunstwerken</a></li>
+                    <li><a  id="active3" href="/src/contact.html">contact</a></li>
+                    <li><a  id="active4" href="/src/opmaatgemaakt.html">op maat</a></li>
+                    
+                </ul>
+                
+            </section>
+            
+            <section class="zoekbar">
+                
+                <!-- input tag -->
+                <input id="searchbar" onkeyup="search_animal()" type="text"
+                name="search" placeholder=".....">
+                
+                <!-- ordered list -->
+                <div id='list'style=" gap: 1.5rem">
+                    <li class="animals"><a href="./cart.html">Wenskaartje1</a></li>
+                    <li class="animals"><a href="./cart.html">W2</a></li>
+                    <li class="animals"><a href="./cart.html">W3</a></li>
+                    <li class="animals"><a href="./cart.html">cc</a></li>
+                    <li class="animals"><a href="./cart.html">gg</a></li>
+                    <li class="animals"><a href="./cart.html">jj</a></li>
+                    <li class="animals"><a href="./cart.html">xx</a></li>
+                    <li class="animals"><a href="./cart.html">zz</a></li>
+                    <li class="animals"><a href="./cart.html">qq</a></li>
+                    <li class="animals"><a href="./cart.html">rr</a></li>
+                    <li class="animals"><a href="./cart.html">yy</a></li>
+                </div>
+                
+                
+                <script src="./kunstwerken.js"></script>
+            </section>
+            
+            
+            <section class="shop container">
+                <h2 class="section-title"></h2>
+                
+                <div class="shop-content">
+                    
+                    <!-- Box 1 -->
+                    <div id="product-box1" >
+                        <a  href="./cart.html" target="_blank" style="cursor: pointer;">
+                            <img src="/assets/IMG_0407.jpeg" alt="" class="product-img">
+                        </a>
+                        <h2 class="product-title">product x</h2>
+                        <span class="price">x euro</span>
+                        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+                    </div>
+                    
+                    
+                    <!-- Box 2 -->
+                    <div id="product-box2">
+                        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+                            <img src="/assets/IMG_1077.jpeg" alt="" class="product-img">
+                        </a>
+                        <h2 class="product-title">product x</h2>
+                        <span class="price">x euro</span>
+                        <a href="./mandje1.html"><i class='bx bx-shopping-bag'></i></a>
+                    </div>
+                    
+                    
+                    <!-- Box 3 -->
+                    <div id="product-box3">
+                        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+                            <img src="/assets/IMG_1535.jpeg" alt="" class="product-img">
+                        </a>
+                        <h2 class="product-title">product x</h2>
+                        <span class="price">x euro</span>
+                        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+                    </div>
+                    
+                    <!-- Box 4 -->
+                    <div id="product-box4">
+                        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+                            <img src="/assets/IMG_1605.jpeg" alt="" class="product-img">
+                        </a>
+                        <h2 class="product-title">product x</h2>
+                        <span class="price">x euro</span>
+                        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+                    </div>
+                    
+                    <!-- Box 5 -->
+                    <div id="product-box5">
+                        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+            <img src="/assets/IMG_2875.jpeg" alt="" class="product-img">
+        </a>
+        <h2 class="product-title">product x</h2>
+        <span class="price">x euro</span>
+        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    
+    <!-- Box 6 -->
+    <div id="product-box6">
+        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+            <img src="/assets/IMG_2915.jpeg" alt="" class="product-img">
+        </a>
+        <h2 class="product-title">product x</h2>
+        <span class="price">x euro</span>
+        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    
+    <!-- Box 7 -->
+    <div id="product-box7">
+        <a href="./cart.html" target="_blank" style="cursor: pointer;"></a>
+        <img src="/assets/IMG_3111.jpeg" alt="" class="product-img">
+        <h2 class="product-title">product x</h2>
+        <span class="price">x euro</span>
+        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    
+    <!-- Box 8 -->
+    <div  id="product-box8">
+        <a href="./cart.html" target="_blank" style="cursor: pointer;"></a>
+        <img src="/assets/IMG_3596.jpeg" alt="" class="product-img">
+        <h2 class="product-title">product x</h2>
+        <span class="price">x euro</span>
+        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    
+    <!-- Box 9 -->
+    <div id="product-box9">
+        <a href="./cart.html" target="_blank" style="cursor: pointer;">
+            <img src="/assets/IMG_4097.jpeg" alt="" class="product-img">
+        </a> 
+        <h2 class="product-title">product x</h2>
+        <span class="price">x euro</span>
+        <a href="./cart.html"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+</div>
+</section>
+
+
+
+<section id="footer">
+    <footer>
+        
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        
+        <ul class="social_icon">
+            <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+            <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+            <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+        </ul>
+        <ul id="navbar">
+            <li><a id="active5"   href="index.html">overzicht</a></li>
+            <li><a  id="active6" href="/src/kunstwerken.html">kunstwerken</a></li>
+            <li><a  id="active7" href="/src/contact.html">contact</a></li>
+            <li><a  id="active8" href="/src/opmaatgemaakt.html">op maat</a></li>
+            
+        </ul>
+    </ul>
+    <p>©2023 Dubois Media Development | All Rights Reserved</p>
+</footer>
+</section>
+
+    <script>
+        let languageContent = {
+           "en": {
+              "active": "home",
+              "active2": "art",
+              "active3": "contact us",
+              "active4": "custom made",
+              "active5": "home",
+              "active6": "art",
+              "active7": "contact us",
+              "active8": "custom made",
+           },
+           "nl": {
+            "active": "overzicht",
+              "active2": "kunstwerken",
+              "active3": "contact",
+              "active4": "op maat gemaakt",
+              "active5": "overzicht",
+              "active6": "kunstwerken",
+              "active7": "contact",
+              "active8": "op maat gemaakt",
+           },
+          
+        }
+        function switchLang(lang) {
+           for (let key in languageContent[lang]) {
+              document.getElementById(key).innerHTML = languageContent[lang][key];
+           }
+        }
+     </script>
+
+
+</body>
+</html>

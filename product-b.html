@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanjelle</title>
+    <link rel="stylesheet" href="product-b.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="./index.html"><img src="/assets/unnamed.jpg" class="logo" alt=""></a>
+
+
+        <div>
+            <ul id="navbar">
+                <li><a id="active"   href="index.html">overzicht</a></li>
+                <li><a  id="active2" href="/src/kunstwerken.html">kunstwerken</a></li>
+                <li><a  id="active3" href="/src/contact.html">contact</a></li>
+                <li><a  id="active4" href="/src/opmaatgemaakt.html">op maat gemaakt</a></li>
+               
+              </ul>
+
+    </section>
+
+
+    <section class="product-b">
+        <div id="product-b">
+          <img  class="product-b-img" src="/assets/IMG_1077.jpeg">
+          <p class="product-b-text" style="cursor:pointer;">
+
+            Lorem ipsum dolor sit amet. Est maxime corrupti ad harum veritatis et deserunt distinctio et molestiae odio.<br/> Qui quia dolore in tempora nihil ex voluptatem unde. <br/> Sed voluptates officia vel officia fuga eos asperiores ullam aut atque soluta. Non officiis odio qui dicta error sed voluptatem autem.
+            <br/>
+            Quo officiis accusantium qui dolor dicta quo natus enim. <br/>Sit nisi maiores non dolorem magni ea fuga sequi non autem natus.<br/> Ut natus similique sed dolore ratione quo velit vero.
+            <br/>
+            Qui mollitia rerum vel odit quod ad alias voluptatem! Est totam doloremque nam voluptatem odit 33 animi tempore aut expedita omnis?<br/> Et temporibus excepturi qui placeat eaque qui nihil laboriosam qui dicta earum ea corrupti molestiae.
+            </p>
+<!-- 
+            <h1 style="color:antiquewhite; padding-left: 29%;">100€</h1> -->
+
+            <h2 style="margin-top: 14%; padding-left: 22%;" class="h2-text">👇</h2>
+
+            <a  style="text-decoration: none;" href="/src/product-c.html" ><p><button class="btn">Plaats uw prijs</button></a></p>
+
+            <a href="./product-c.html"><img src="/assets/IMG_1535.jpeg"  class="img-b"></a>
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer>
+        
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+        
+            <ul class="social_icon">
+                <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+                <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+                <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+            </ul>
+            <ul id="navbar">
+                <li><a id="active5"   href="index.html">overzicht</a></li>
+                <li><a  id="active6" href="/src/kunstwerken.html">kunstwerken</a></li>
+                <li><a  id="active7" href="/src/contact.html">contact</a></li>
+                <li><a  id="active8" href="/src/opmaatgemaakt.html">op maat gemaakt</a></li>
+               
+              </ul>
+            </ul>
+            <p>©2023 Dubois Media Development | All Rights Reserved</p>
+        </footer>
+        </section>
+
+        <script>
+            let languageContent = {
+                "nl": {
+                   
+                    "active": "overzicht",
+                   "active2": "kunstwerken",
+                   "active3": "contact",
+                   "active4": "op maat gemaakt",
+                   "active5": "overzicht",
+                   "active6": "kunstwerken",
+                   "active7": "contact",
+                   "active8": "op maat gemaakt",
+
+                },
+                "en": {
+                 
+                    "active": "home",
+                  "active2": "art",
+                  "active3": "contact us",
+                  "active4": "custom made",
+                  "active5": "home",
+                  "active6": "art",
+                  "active7": "contact us",
+                  "active8": "custom made",
+               },
+              
+             
+         }
+    
+            function switchLang(lang) {
+               for (let key in languageContent[lang]) {
+                  document.getElementById(key).innerHTML = languageContent[lang][key];
+               }
+            }
+         </script>
+
+</body>
+</html>
