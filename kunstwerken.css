@@ -165,7 +165,7 @@ left: 20px;
 
  .zoekbar{
     background-color: #0a6a5f66;
-    height: 190vh;
+    height: 180vh;
  }
 
  input[type=text]:focus + #list a{
