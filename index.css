@@ -632,6 +632,7 @@ margin-bottom: 50%;
     opacity: 0.75;
     transition: opacity ease 250ms;
     transition: .5s;
+    display: none;
 }
 .elke h1{
     top: 126%;
