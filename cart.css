@@ -560,7 +560,7 @@ footer .wave#wave4{
 
 }
 
-@media only screen and (width:1440px){
+@media only screen and (width:1280px){
     .dutch,
      .engels{
          display: none;
