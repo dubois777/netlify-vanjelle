@@ -367,10 +367,10 @@ footer .wave#wave4{
 }
 
 @media only screen and (width:375px){
-    .dutch,
-     .engels{
-         display: none;
-     }
+  .dutch, .engels{
+     display: none;
+ }
+
 
      footer .social_icon,
      footer #navbar{
