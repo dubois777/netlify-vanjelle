@@ -440,8 +440,8 @@ footer .wave#wave4{
      display: none;
     } */
 
-     button .dutch,
-    button .engels{
+     button.dutch,
+    button.engels{
          display: none;
      }
 
