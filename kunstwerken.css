@@ -185,6 +185,7 @@ left: 20px;
     font-weight: bold;
     color: #1a1a1a;
     cursor: pointer;
+     display:none;
  }
 
 
@@ -227,6 +228,7 @@ left: 20px;
     position: relative;
     transition: 0.4s;
     border: 1px solid rgb(0, 0, 0);
+    display:none;
    
 }
 
@@ -242,6 +244,7 @@ left: 20px;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
     transition: 0.4s;
+     display:none;
  
 }
 
@@ -256,14 +259,14 @@ left: 20px;
     position: relative;
     transition: 0.4s;
     border: 1px solid rgb(0, 0, 0);
-
+    display:none;
 }
 
 #product-box1:hover{
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
     transition: 0.4s;
-
+    display:none;
 }
 
 /* .product-title{
@@ -285,10 +288,12 @@ background: #1a1a1a;
 color: #ffffffef;
 padding: 10px;
 cursor: pointer;
+     display:none;
 }
 
 .bx-shopping-bag:hover{
     background: hsl(167, 46%, 25%);
+     display:none;
 }
 
 
