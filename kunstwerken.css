@@ -281,6 +281,7 @@ left: 20px;
 } */
 
 .bx-shopping-bag{
+display: none;
 position:absolute ;
 bottom: 0;
 right: 0;
@@ -288,12 +289,11 @@ background: #1a1a1a;
 color: #ffffffef;
 padding: 10px;
 cursor: pointer;
-     display:none;
 }
 
 .bx-shopping-bag:hover{
+    display: none;
     background: hsl(167, 46%, 25%);
-     display:none;
 }
 
 
