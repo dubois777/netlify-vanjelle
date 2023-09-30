@@ -227,8 +227,8 @@ left: 20px;
 #product-box9{
     position: relative;
     transition: 0.4s;
-    border: 1px solid rgb(0, 0, 0);
-    display:none;
+
+   
    
 }
 
@@ -242,9 +242,9 @@ left: 20px;
 #product-box8:hover,
 #product-box9:hover{
     padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+   
     transition: 0.4s;
-     display:none;
+   
  
 }
 
@@ -258,15 +258,15 @@ left: 20px;
 #product-box1{
     position: relative;
     transition: 0.4s;
-    border: 1px solid rgb(0, 0, 0);
-    display:none;
+ 
+
 }
 
 #product-box1:hover{
     padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+
     transition: 0.4s;
-    display:none;
+
 }
 
 /* .product-title{
