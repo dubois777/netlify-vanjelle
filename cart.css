@@ -432,13 +432,18 @@ footer .wave#wave4{
 
 
 @media only screen and (width:450px){
-  .dutch, .engels{
+/*   .dutch, .engels{
      display: none;
  }
 
     button .dutch, button .engels{
      display: none;
-    }
+    } */
+
+     button .dutch,
+    button .engels{
+         display: none;
+     }
 
      footer .social_icon,
      footer #navbar{
@@ -472,7 +477,7 @@ footer .wave#wave4{
 }
 
 .product-a-img{
-    width: 60%;
+    width: 40%;
     justify-content: center;
     margin: auto;
     display: flex;
@@ -497,6 +502,7 @@ footer .wave#wave4{
         }
 
 }
+
 
 
 @media only screen and (width:810px){
