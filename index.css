@@ -435,7 +435,7 @@ footer .wave#wave4{
     right: -55%;
     border-radius: 35%;
    margin-left: 67.9%;
-   margin-top: -27%;
+   margin-top: -11%;
    transition: 2s;
 }
 
@@ -916,7 +916,11 @@ footer{
         top: 137%;
         display: flex;
     }
-    
+
+.slider{
+   margin-top: -27%;
+}
+       
     .david h1{
         top: 165%;
         display: flex;
@@ -959,7 +963,7 @@ footer{
         right: -55%;
         border-radius: 35%;
        margin-left: 77.9%;
-       margin-top: -16%;
+          margin-top: -27%;
        transition: 2s;
     }
 
@@ -1015,7 +1019,7 @@ footer{
         right: -55%;
         border-radius: 35%;
        margin-left: 77.9%;
-       margin-top: -16%;
+         margin-top: -27%;
        transition: 2s;
     }
 
@@ -1072,7 +1076,7 @@ footer{
         right: -55%;
         border-radius: 35%;
        margin-left: 77.9%;
-       margin-top: -16%;
+         margin-top: -27%;
        transition: 2s;
     }
 
