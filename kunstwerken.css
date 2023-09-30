@@ -227,7 +227,7 @@ left: 20px;
     position: relative;
     transition: 0.4s;
     border: 1px solid rgb(0, 0, 0);
-    display: none;
+   
 }
 
 
@@ -242,7 +242,7 @@ left: 20px;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
     transition: 0.4s;
-    display: none;
+ 
 }
 
 .product-img{
@@ -256,14 +256,14 @@ left: 20px;
     position: relative;
     transition: 0.4s;
     border: 1px solid rgb(0, 0, 0);
-    display: none;
+
 }
 
 #product-box1:hover{
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
     transition: 0.4s;
-    display:none;
+
 }
 
 /* .product-title{
