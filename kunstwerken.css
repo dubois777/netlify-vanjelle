@@ -582,8 +582,8 @@ section#footer{
      
  .product-img{
     width: 100%;
-    height: 145.5%;
-    margin-bottom: 2.5rem;
+    height: 175.5%;
+    margin-bottom: 5.5rem;
 }
  
 
@@ -1007,10 +1007,7 @@ padding: .5rem 5rem;
 
  @media only screen and (max-width :1280px){
 
-    button .dutch,
-    button .engels{
-         display: none;
-     }
+  
      #searchbar{
          margin-left: 12%;
          padding:15px;
@@ -1143,9 +1140,7 @@ padding: .5rem 5rem;
      border-radius: 10px;
  }
  
- .dutch, .engels{
-     display: none;
- }
+
  
  }
 
@@ -1248,8 +1243,8 @@ padding: .5rem 5rem;
      
  .product-img{
     width: 100%;
-    height: 135.5%;
-    margin-bottom: 2.5rem;
+    height: 175.5%;
+    margin-bottom: 5.5rem;
 }
  
  
@@ -1401,8 +1396,8 @@ padding: .5rem 5rem;
      
  .product-img{
     width: 100%;
-    height: 135.5%;
-    margin-bottom: 2.5rem;
+    height: 175.5%;
+    margin-bottom: 5.5rem;
 }
  
  
