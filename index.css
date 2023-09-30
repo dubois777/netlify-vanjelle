@@ -446,6 +446,7 @@ footer .wave#wave4{
 }
 
 .slider-nav{
+    padding-top: 13%;
     display: flex;
     column-gap: 1rem;
     position: absolute;
@@ -454,7 +455,7 @@ footer .wave#wave4{
     transform: translateX(-50%);
     z-index: 15;
     margin-left: 26%;
-    margin-bottom: -8%;
+    margin-bottom: 17%;
     color: #1a1a1a;
 }
 
