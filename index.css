@@ -842,7 +842,7 @@ footer{
        transition: 2s;
     }
     .slider-nav{
-        display: flex;
+        display: none;
         column-gap: 0.7rem;
         position: absolute;
         bottom: 1.25rem;
@@ -852,6 +852,7 @@ footer{
         margin-left: 46%;
         margin-bottom: 8%;
         color: #1a1a1a;
+        
     }
     .slider-nav a{
         width: 0.8rem;
@@ -861,6 +862,7 @@ footer{
         opacity: 0.75;
         transition: opacity ease 250ms;
         transition: .5s;
+         display: none;
     }
     .elke h1{
         top: 126%;
