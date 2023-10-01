@@ -430,14 +430,9 @@ footer .wave#wave4{
     button .dutch, button .engels{
      display: none;
     } */
-
-     .dutch{
-         display:none;
-     }
-
-    .engels{
-        display:none;
-    }
+button{
+    display:none;
+}
 
      footer .social_icon,
      footer #navbar{
