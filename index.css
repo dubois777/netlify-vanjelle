@@ -961,7 +961,7 @@ footer{
 }
    }
 
-   @media only screen and (max-width: 1280px){
+   @media only screen and (width: 1280px){
     .slider-wrapper{
      margin-top: -30%;
      margin-right: 10%;
@@ -1253,3 +1253,38 @@ transition: .5s;
         border-color: #94a0b4;
        } 
     
+
+
+@media only screen and (max-width: 1665px){
+    
+  .slider-wrapper{
+     margin-top: -30%;
+     margin-right: 10%;
+    }
+    
+.slider-nav
+       {
+          margin-top: -49%;
+        }
+
+    .slider{
+        display: flex;
+        aspect-ratio:6/9;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow:  0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        width: 310px;
+        right: -55%;
+        border-radius: 35%;
+       margin-left: 77.9%;
+          margin-top: -27%;
+       transition: 2s;
+    }
+
+    .slider-nav{
+        margin-bottom: 36%;
+        padding-left: 13%;        
+    }
+
+}
