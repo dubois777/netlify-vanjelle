@@ -360,7 +360,7 @@ footer .wave#wave4{
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (width:375px){
+@media only screen and (max-width:375px){
   .dutch, .engels{
      display: none;
  }
@@ -425,7 +425,7 @@ footer .wave#wave4{
 }
 
 
-@media only screen and (width : 450px){
+@media only screen and (max-width : 450px){
 
     
  .dutch, .engels{
@@ -495,7 +495,7 @@ footer .wave#wave4{
 
 
 
-@media only screen and (width:850px){
+@media only screen and (max-width:850px){
   .dutch, .engels{
      display: none;
  }
@@ -564,7 +564,7 @@ footer .wave#wave4{
 
 }
 
-@media only screen and (width:1280px){
+@media only screen and (max-width:1280px){
  
      footer .social_icon,
      footer #navbar{
@@ -615,7 +615,7 @@ footer .wave#wave4{
 
 }
 
-@media only screen and (width:1440px){
+@media only screen and (max-width:1440px){
  
      footer .social_icon,
      footer #navbar{
