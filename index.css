@@ -967,7 +967,8 @@ footer{
      margin-right: 10%;
     }
     
-.slider-nav a{
+.slider-nav
+       {
           margin-top: -49%;
         }
 
