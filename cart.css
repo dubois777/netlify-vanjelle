@@ -220,7 +220,7 @@ footer{
    }
 
    footer .social_icon,
-   footer .navbar{
+   footer #navbar{
     position: relative;
     display: flex;
     justify-content: center;
@@ -230,7 +230,7 @@ footer{
    }
 
    footer .social_icon li,
-   footer .navbar{
+   footer  #navbar{
    list-style: none;
    }
    
