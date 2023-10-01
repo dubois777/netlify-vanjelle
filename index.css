@@ -436,7 +436,6 @@ footer .wave#wave4{
    margin-left: 67.9%;
    margin-top: -23%;
    transition: 2s;
-   padding-bottom: 28%;
 }
 
 
@@ -456,7 +455,7 @@ footer .wave#wave4{
     transform: translateX(-50%);
     z-index: 15;
     margin-left: 26%;
-    margin-bottom: 33%;
+    margin-bottom: -33%;
     color: #1a1a1a;
 }
 
@@ -482,7 +481,7 @@ footer .wave#wave4{
     transform: translateX(-50%);
     z-index: 15;
     margin-left: 26%;
-    margin-bottom: 33%;
+    margin-bottom:-33%;
     color: #1a1a1a;
 }
 
