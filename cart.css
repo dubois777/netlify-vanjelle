@@ -565,11 +565,7 @@ footer .wave#wave4{
 }
 
 @media only screen and (width:1280px){
-    .dutch,
-     .engels{
-         display: none;
-     }
-
+ 
      footer .social_icon,
      footer #navbar{
          position: relative;
@@ -620,11 +616,7 @@ footer .wave#wave4{
 }
 
 @media only screen and (width:1440px){
-    .dutch,
-     .engels{
-         display: none;
-     }
-
+ 
      footer .social_icon,
      footer #navbar{
          position: relative;
