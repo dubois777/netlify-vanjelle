@@ -434,7 +434,7 @@ footer .wave#wave4{
     right: -55%;
     border-radius: 35%;
    margin-left: 67.9%;
-   margin-top: 41%;
+   margin-top: -23%;
    transition: 2s;
 }
 
@@ -908,7 +908,7 @@ footer{
     }
     }
 
-   @media only screen and (max-width: 1440px){
+   @media only screen and (width: 1440px){
     .slider-wrapper{
      margin-top: -30%;
      margin-right: 8%;
@@ -950,7 +950,7 @@ footer{
 }
    }
 
-   @media only screen and (max-width: 1280px){
+   @media only screen and (width: 1280px){
     .slider-wrapper{
      margin-top: -30%;
      margin-right: 10%;
@@ -1006,7 +1006,7 @@ footer{
    }
 
 
-   @media only screen and (max-width: 1800px){
+   @media only screen and (width: 1800px){
     .slider-wrapper{
      margin-top: -30%;
      margin-right: 10%;
@@ -1063,7 +1063,7 @@ footer{
 
    }
 
-   @media only screen and (max-width: 2880px){
+   @media only screen and (width: 2880px){
     .slider-wrapper{
      margin-top: -30%;
      margin-right: 10%;
