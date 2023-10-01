@@ -966,7 +966,10 @@ footer{
      margin-top: -30%;
      margin-right: 10%;
     }
-
+    
+slider-nav a{
+          margin-top: -29%;
+        }
 
     .slider{
         display: flex;
