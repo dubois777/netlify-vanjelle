@@ -1283,7 +1283,7 @@ transition: .5s;
     }
 
     .slider-nav{
-        margin-bottom: 56%;
+        margin-bottom: -56%;
         padding-left: 13%;        
     }
 
