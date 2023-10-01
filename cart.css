@@ -46,19 +46,13 @@ p{
 body{
     width: 100%;
 }
+
 .logo{
-    float:center;
-    margin:auto;
-    justify-content: center;
-    display: flex; 
-    align-items: center;
+    float:left;
     height: 90px;
     width:140px;
     border-radius: 50%;
-margin-bottom: 1%;
- /* display: none; */
 }
-
 
 .logo img{
     color: azure;
@@ -79,12 +73,10 @@ margin-bottom: 1%;
 }
 
 #navbar{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
+   display: flex; 
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 #navbar li{
@@ -116,7 +108,6 @@ position: absolute;
 bottom: -4px;
 left: 20px;
 }
-
 .product-a-img{
     height: 8%;
     position: relative;
