@@ -73,10 +73,13 @@ body{
 }
 
 #navbar{
-   display: flex; 
-   align-items: center;
-   justify-content: space-around;
-   flex-wrap: wrap;
+     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    list-style:none;
+    flex-wrap: wrap;
 }
 
 #navbar li{
