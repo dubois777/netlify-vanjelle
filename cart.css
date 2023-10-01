@@ -431,11 +431,11 @@ footer .wave#wave4{
      display: none;
     } */
 
-     button.dutch{
+     .dutch{
          display:none;
      }
 
-    button.engels{
+    .engels{
         display:none;
     }
 
@@ -455,7 +455,7 @@ footer .wave#wave4{
          list-style: none;
      }
      
-     #product-a-text p{
+     #product-a-text{
         font-size: small;
         color: white;
         font-weight: 900;
@@ -470,12 +470,10 @@ footer .wave#wave4{
     margin-left: -30%;
 }
 
-    .product-a-img img{
+    .product-a-img{
     width: 60%;
     justify-content: center;
     margin: auto;
-    display: flex;
-
 }
 
 .product-a{
