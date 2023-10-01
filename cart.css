@@ -431,7 +431,7 @@ footer .wave#wave4{
 }
 
 
-@media only screen and (width : 410px){
+@media only screen and (width : 450px){
 /*   .dutch, .engels{
      display: none;
  }
@@ -505,7 +505,7 @@ footer .wave#wave4{
 
 
 
-@media only screen and (width:810px){
+@media only screen and (width:850px){
    button .dutch,
     button .engels{
          display: none;
