@@ -455,7 +455,7 @@ footer .wave#wave4{
          list-style: none;
      }
      
-     p#product-a-text{
+     #product-a-text{
         font-size: small;
         color: white;
         font-weight: 900;
@@ -470,7 +470,7 @@ footer .wave#wave4{
     margin-left: -30%;
 }
 
-    img.product-a-img{
+    .product-a-img{
     width: 60%;
     justify-content: center;
     margin: auto;
