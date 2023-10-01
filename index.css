@@ -1262,7 +1262,7 @@ transition: .5s;
      margin-right: 10%;
     }
     
-.slider-nav
+.slider-nav a
        {
           margin-top: -49%;
         }
@@ -1283,7 +1283,7 @@ transition: .5s;
     }
 
     .slider-nav{
-        margin-bottom: 36%;
+        margin-bottom: 56%;
         padding-left: 13%;        
     }
 
