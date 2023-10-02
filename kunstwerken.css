@@ -209,9 +209,9 @@ left: 20px;
 .shop-content{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, auto));
-   padding-top: 17%;
+   padding-top: 27%;
     gap: 1.5rem;
-    padding-bottom: 20%
+
 }
 
 .product-title{
