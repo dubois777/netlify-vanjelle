@@ -1258,7 +1258,7 @@ transition: .5s;
     
 
 
-@media only screen and (max-width: 1665px){
+@media only screen and (width: 1665px){
     
   .slider-wrapper{
      margin-top: -20%;
