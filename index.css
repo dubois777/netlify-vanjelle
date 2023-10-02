@@ -457,6 +457,7 @@ footer .wave#wave4{
     margin-left: 26%;
     margin-bottom: 14%;
     color: #1a1a1a;
+    display:none;
 }
 
 
@@ -470,6 +471,7 @@ footer .wave#wave4{
     opacity: 0.75;
     transition: opacity ease 250ms;
     transition: .5s;
+    display:none;
 }
 
 .slider-nav{
@@ -483,6 +485,7 @@ footer .wave#wave4{
     margin-left: 26%;
     margin-bottom:14%;
     color: #1a1a1a;
+    display:none;
 }
 
 
