@@ -129,7 +129,9 @@ margin-bottom: 1%;
       float: right;
       display: block;
     }
-
+  .dropdown{
+    display:none;
+  }
 
   }
   
@@ -145,6 +147,9 @@ margin-bottom: 1%;
       display: block;
       text-align: left;
     }
+      .dropdown{
+    display:none;
+  }
   }
 
 
