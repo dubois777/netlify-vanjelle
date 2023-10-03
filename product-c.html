@@ -12,26 +12,29 @@
 </head>
 <body>
     <section id="header">
-        <a href="./index.html"><img src="/assets/unnamed.jpg" class="logo" alt=""></a>
-
-         <button class="dutch" onclick = "switchLang('nl')"> Nederlands </button>
-        <button class="engels" onclick = "switchLang('en')"> English  </button>
-        <div>
     
-           
-               <div class="navbar" id="myNavbar">
-          <a id="active" href="index.html" class="active">overzicht</a>
-          <a id="active1" href="kunstwerken.html">kunstwerken</a>
-          <a  id="active2" href="contact.html">contact</a>
-          <a id="active3" href="op maat">op maat</a>
-          <a  id="active4" href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+    <a href="./index.html"><img src="/assets/unnamed.jpg" class="logo" alt=""></a>
+    
+    
+    <div class="dropdown">
+      <div class="navbar" id="myNavbar">
+        <a href="index.html" class="active">overzicht</a>
+        <a href="kunstwerken.html">kunstwerken</a>
+        <a href="contact.html">contact</a>
+        <a href="op maat">op maat</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <button class="dutch" onclick = "switchLang('nl')"> Nederlands </button>
+          <button class="engels" onclick = "switchLang('en')"> English  </button>
         </div>
+      </div>
+    </div>
         
-        </div>
+      </section>
 
-    </section>
 
     
     <div class="contact" id="contact">
