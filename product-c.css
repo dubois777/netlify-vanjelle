@@ -125,7 +125,9 @@ body{
       float: right;
       display: block;
     }
-
+  .dropdown{
+    display:none;
+  }
 
   }
   
@@ -136,6 +138,9 @@ body{
       right: 0;
       top: 0;
     }
+      .dropdown{
+    display:none;
+  }
     .navbar.responsive a {
       float: none;
       display: block;
