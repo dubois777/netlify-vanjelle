@@ -128,7 +128,9 @@ margin-bottom: 1%;
       display: block;
     }
 
-
+  .dropdown{
+    display:none;
+  }
   }
   
   @media screen and (max-width: 600px) {
@@ -143,6 +145,9 @@ margin-bottom: 1%;
       display: block;
       text-align: left;
     }
+      .dropdown{
+    display:none;
+  }
   }
 
 
@@ -454,6 +459,11 @@ footer .wave#wave4{
 .dutch:hover{
     color: rgb(255, 255, 255);
 }
+@media only screen and(max-width: 450px){
+    .dropdown{
+    display:none;
+  }
+}
 
 @media only screen and (max-width: 375px){
     .engels,
@@ -467,7 +477,9 @@ footer .wave#wave4{
         float: left;
         margin-left: -30%;
     }
-
+  .dropdown{
+    display:none;
+  }
     
 }
 
@@ -483,7 +495,9 @@ footer .wave#wave4{
         float: left;
         margin-left: -30%;
     }
-
+  .dropdown{
+    display:none;
+  }
     
 }
 
