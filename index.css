@@ -731,7 +731,9 @@ margin-bottom: 50%;
     display: flex;
     
 }
-
+  .dropdown{
+    display:none;
+  }
 .Bram h1{
     top: 195%;
     display: flex;
@@ -765,6 +767,9 @@ footer{
     padding: none;
     margin: auto;
 }
+  .dropdown{
+    display:none;
+  }
 
 #heroh4 h4{
     padding: none;
@@ -885,7 +890,9 @@ footer{
         padding: none;
         margin: auto;
     }
-    
+      .dropdown{
+    display:none;
+  }
     #heroh4 h4{
         padding: none;
     }
