@@ -406,6 +406,12 @@ footer .wave#wave4{
 
 } */
 
+@media only screen and (max-width: 450px){
+  .dropdown{
+    display:none;
+  }
+}
+
 @media only screen and (max-width: 375px){
 
 .dutch{
@@ -422,6 +428,9 @@ footer .wave#wave4{
     font-size: x-large;
     padding-right:50%;
 }
+    .dropdown{
+    display:none;
+  }
 
 .engels:hover{
     color: rgb(255, 255, 255);
@@ -509,7 +518,7 @@ footer .wave#wave4{
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width: 810px){
+@media only screen and (max-width: 850px){
 
     .dutch{
         background: transparent;
@@ -517,6 +526,10 @@ footer .wave#wave4{
         font-weight: bolder;
         font-size: x-large;
     }
+
+    .dropdown{
+    display:none;
+  }
     
     .engels{
         background: transparent;
