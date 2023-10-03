@@ -441,7 +441,9 @@ footer .wave#wave4{
   .dutch, .engels{
      display: none;
  }
-
+  .dropdown{
+    display:none;
+  }
 
      footer .social_icon,
      footer #navbar{
@@ -503,7 +505,9 @@ footer .wave#wave4{
 
 
 @media only screen and (max-width : 450px){
-
+  .dropdown{
+    display:none;
+  }
     
  .dutch, .engels{
      display: none;
@@ -582,6 +586,9 @@ footer .wave#wave4{
     float: left;
     margin-left: -30%;
 }
+    .dropdown{
+    display:none;
+  }
 
      footer .social_icon,
      footer #navbar{
