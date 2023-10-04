@@ -1,3 +1,7 @@
+  .portfolio{
+    text-decoration: none;
+    color: rgb(255, 249, 240);
+  }
 #navbar{
     position: relative;
     margin: auto;
