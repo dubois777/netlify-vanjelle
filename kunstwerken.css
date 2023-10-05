@@ -1559,7 +1559,18 @@ padding: .5rem 5rem;
 .dropdown{
 display: none;
 }
-  
+
+      #footer {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        bottom: -280%;
+        left: 0;
+        right: 0;
+/*         background-color: #fff; /* Pas de achtergrondkleur aan indien nodig */ */
+        padding: 10px; /* Voeg padding toe voor visuele scheiding van de inhoud */
+        text-align: center;
+    }
 
 .product-img{
     width: 100%;
@@ -1692,7 +1703,18 @@ footer p{
 .dropdown{
 display: none;
 }
-  
+
+       #footer {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        bottom: -280%;
+        left: 0;
+        right: 0;
+/*         background-color: #fff; /* Pas de achtergrondkleur aan indien nodig */ */
+        padding: 10px; /* Voeg padding toe voor visuele scheiding van de inhoud */
+        text-align: center;
+    }
 
 .product-img{
     width: 100%;
