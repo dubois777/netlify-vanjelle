@@ -681,6 +681,8 @@ section#footer{
             flex-direction: column;
            }
 
+    
+
            
      
         
@@ -1549,3 +1551,20 @@ padding: .5rem 5rem;
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: transparent;} 
+
+    @media only screen and (max-width:450px){
+.dropdown{
+display: none;
+}
+  
+
+.product-img{
+    width: 100%;
+    height: 85.5%;
+    margin-bottom: 3.5rem;
+}
+
+ footer{
+     padding-top:80%;
+ }
+}
