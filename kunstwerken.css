@@ -674,7 +674,7 @@ section#footer{
             width: 100%;
             background:rgb(142, 190, 191);
             min-height: 10px;
-            padding: 50px 50px;
+            padding: 50px 90px;
             display: block;
             justify-content: center;
             align-items: center;
@@ -1609,8 +1609,7 @@ display: none;
       padding-top: 80%;
  }
 
-        .shop{
-            height: 160vh;
+    
 
         
 footer{
