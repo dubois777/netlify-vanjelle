@@ -682,7 +682,9 @@ section#footer{
             bottom: 140%
            }
 
-    
+    #product-box8, #product-box9{
+        display:none;
+    }
 
            
      
