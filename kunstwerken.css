@@ -1577,7 +1577,7 @@ padding:0;
       }
       
 footer{
-    position: relative;
+  position: absolute;
     width: 100%;
     background:#0a6a5f66;
     min-height: 100px;
@@ -1613,7 +1613,7 @@ display: none;
 
         
 footer{
-    position: relative;
+   position: absolute;;
     width: 100%;
 /*     background:#0a6a5f66; */
     min-height: 100px;
@@ -1771,7 +1771,7 @@ display: none;
         }
         */
 footer{
-    position: relative;
+    position: absolute;
     width: 100%;
 /*     background:#0a6a5f66; */
     min-height: 100px;
