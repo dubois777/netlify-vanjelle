@@ -682,10 +682,10 @@ footer .wave#wave4{
             bottom: 0%
            }
 
-    #product7, #product-box8, #product-box9{
+/*     #product7, #product-box8, #product-box9{
         display:none;
     }
-
+ */
            
      
         
@@ -1615,7 +1615,8 @@ display: none;
         bottom: -280%;
         left: 0;
         right: 0;
-/*         background-color: #fff; /* Pas de achtergrondkleur aan indien nodig */ */
+        margin-bottom: 50%;
+/*         background-color: #fff; /* Pas de achtergrondkleur aan indien nodig */ 
         padding: 10px; /* Voeg padding toe voor visuele scheiding van de inhoud */
         text-align: center;
     }
@@ -1711,6 +1712,7 @@ display: none;
         bottom: -280%;
         left: 0;
         right: 0;
+        margin-bottom: 50%;
 /*         background-color: #fff; /* Pas de achtergrondkleur aan indien nodig */ */
         padding: 10px; /* Voeg padding toe voor visuele scheiding van de inhoud */
         text-align: center;
