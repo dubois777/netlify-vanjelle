@@ -1563,10 +1563,10 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
       
 footer{
@@ -1595,10 +1595,10 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
         
 footer{
@@ -1626,10 +1626,10 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
        
 footer{
@@ -1657,11 +1657,11 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
  }
-
+ */
        
 footer{
     position: relative;
@@ -1689,12 +1689,12 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
  }
 
-       
+        */
 footer{
     position: relative;
     width: 100%;
@@ -1721,10 +1721,10 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
    bottom: -120%;
- }
+ } */
 
        
 footer{
