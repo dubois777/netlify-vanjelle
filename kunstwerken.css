@@ -1563,11 +1563,11 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
-/*  footer{
+ footer{
      postition: absolute;
  bottom: -120%;
  }
- */
+
       
 footer{
     position: relative;
@@ -1596,8 +1596,8 @@ display: none;
     margin-bottom: 3.5rem;
 }
  footer{
-/*      postition: absolute; */
-/*  bottom: -120%; */
+     postition: absolute;
+ bottom: -120%;
  }
 
         
@@ -1626,10 +1626,10 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
-/*  footer{
+ footer{
      postition: absolute;
  bottom: -120%;
- } */
+ }
 
        
 footer{
@@ -1657,10 +1657,10 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
+ footer{
      postition: absolute;
  bottom: -120%;
- } */
+ }
 
        
 footer{
@@ -1689,10 +1689,10 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
+ footer{
      postition: absolute;
  bottom: -120%;
- } */
+ }
 
        
 footer{
@@ -1721,11 +1721,11 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
+ footer{
      postition: absolute;
    bottom: -120%;
  }
- */
+
        
 footer{
     position: relative;
