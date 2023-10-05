@@ -785,3 +785,9 @@ footer .wave#wave4{
         }
 
 }
+
+@media only screen and (max-width:450px){
+.product-a-text{
+padding-bottom: 20%;
+}
+}
