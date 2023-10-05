@@ -1566,6 +1566,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
+      margin-bottom: 80%;
  }
 
       
@@ -1579,7 +1580,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      margin-bottom: 80%;
 }
 }
 
@@ -1599,6 +1599,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
+      margin-bottom: 80%;
  }
 
         
@@ -1612,7 +1613,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      margin-bottom: 80%;
 }
 }
 
@@ -1631,6 +1631,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
+      margin-bottom: 80%;
  }
 
        
@@ -1644,7 +1645,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      margin-bottom: 80%;
 }
 }
 
@@ -1663,6 +1663,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
+      margin-bottom: 80%;
  }
 
        
@@ -1676,7 +1677,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      margin-bottom: 80%;
 }
 }
 
@@ -1696,6 +1696,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
+      margin-bottom: 80%;
  }
 
        
@@ -1709,7 +1710,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      margin-bottom: 80%;
 }
 }
 
@@ -1729,6 +1729,7 @@ display: none;
  footer{
      postition: absolute;
    bottom: -120%;
+    margin-bottom: 80%;
  }
 
        
@@ -1742,7 +1743,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 80%;
 }
 }
 
