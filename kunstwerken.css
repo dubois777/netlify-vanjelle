@@ -1550,7 +1550,26 @@ padding: .5rem 5rem;
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: transparent;} 
+  .dropdown:hover .dropbtn {background-color: transparent;}
+
+  @media only screen and (max-width:375px){
+.dropdown{
+display: none;
+}
+  
+
+.product-img{
+    width: 100%;
+    height: 85.5%;
+    margin-bottom: 3.5rem;
+}
+ footer{
+     postition: absolute;
+ bottom: -120%;
+ }
+}
+
+
 
     @media only screen and (max-width:450px){
 .dropdown{
@@ -1565,7 +1584,7 @@ display: none;
 }
  footer{
      postition: absolute;
- bottom: -80%;
+ bottom: -120%;
  }
 }
 
@@ -1583,7 +1602,7 @@ display: none;
 }
  footer{
      postition: absolute;
- bottom: -80%;
+ bottom: -120%;
  }
 }
 
@@ -1601,7 +1620,7 @@ display: none;
 
  footer{
      postition: absolute;
- bottom: -80%;
+ bottom: -120%;
  }
 }
 
@@ -1620,7 +1639,7 @@ display: none;
 
  footer{
      postition: absolute;
- bottom: -80%;
+ bottom: -120%;
  }
 }
 
@@ -1639,7 +1658,7 @@ display: none;
 
  footer{
      postition: absolute;
-   bottom: -80%;
+   bottom: -120%;
  }
 }
 
