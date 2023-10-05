@@ -1569,6 +1569,9 @@ display: none;
       padding-top: 80%;
  }
 
+      #footer{
+padding:0;
+      }
       
 footer{
     position: relative;
@@ -1581,6 +1584,7 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+
 }
 
 
@@ -1614,6 +1618,10 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+              #footer{
+padding:0;
+      }
+      
 }
 
 
@@ -1634,10 +1642,10 @@ display: none;
       margin-bottom: 80%;
  }
 
-          .shop{
+/*           .shop{
             height: 192vh;
         }
-       
+        */
 footer{
     position: relative;
     width: 100%;
@@ -1649,6 +1657,10 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+             #footer{
+padding:0;
+      }
+      
 }
 
    @media only screen and (max-width:1280px){
@@ -1668,11 +1680,11 @@ display: none;
  bottom: -120%;
       margin-bottom: 80%;
  }
-
+/* 
           .shop{
             height: 192vh;
         }
-       
+        */
 footer{
     position: relative;
     width: 100%;
@@ -1684,6 +1696,10 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+             #footer{
+padding:0;
+      }
+      
 }
 
 
@@ -1705,10 +1721,10 @@ display: none;
       margin-bottom: 80%;
  }
 
-          .shop{
+/*           .shop{
             height: 192vh;
         }
-       
+        */
 footer{
     position: relative;
     width: 100%;
@@ -1720,6 +1736,10 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+             #footer{
+padding:0;
+      }
+      
 }
 
 
@@ -1741,10 +1761,10 @@ display: none;
     margin-bottom: 80%;
  }
 
-          .shop{
+/*           .shop{
             height: 192vh;
         }
-       
+        */
 footer{
     position: relative;
     width: 100%;
@@ -1756,5 +1776,9 @@ footer{
     align-items: center;
     flex-direction: column;
 }
+             #footer{
+padding:0;
+      }
+      
 }
 
