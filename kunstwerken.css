@@ -1606,7 +1606,7 @@ footer{
     width: 100%;
 /*     background:#0a6a5f66; */
     min-height: 100px;
-    padding: 20px 50px;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
