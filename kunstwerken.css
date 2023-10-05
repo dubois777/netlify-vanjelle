@@ -335,7 +335,7 @@ cursor: pointer;
 footer{
     position: relative;
     width: 100%;
-    background:#0a6a5f66;
+/*     background:#0a6a5f66; */
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -1605,8 +1605,8 @@ display: none;
 }
  footer{
      postition: absolute;
- bottom: -120%;
-      padding-top: 80%;
+ bottom: 120%;
+/*       padding-top: 80%; */
  }
 
     
