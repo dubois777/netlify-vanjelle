@@ -1563,9 +1563,8 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
-
  footer{
-     margin-bottom: 140%;
+    margin-bottom: 180%;
  }
 }
 
@@ -1583,7 +1582,7 @@ display: none;
 }
 
  footer{
- margin-bottom: 140%;
+    margin-bottom: 180%;
  }
 }
 
@@ -1599,9 +1598,9 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
-     padding-top:80%;
- } */
+ footer{
+    margin-bottom: 180%;
+ }
 }
 
 
@@ -1617,9 +1616,9 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
-     padding-top:80%;
- } */
+ footer{
+    margin-bottom: 180%;
+ }
 }
 
 
@@ -1635,8 +1634,8 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
-/*  footer{
-     padding-top:80%;
- } */
+ footer{
+    margin-bottom: 180%;
+ }
 }
 
