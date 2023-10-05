@@ -1584,7 +1584,7 @@ display: none;
 }
  footer{
      postition: absolute;
- bottom: -120%;
+ padding-top: 120%;
  }
 }
 
