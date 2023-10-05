@@ -1563,17 +1563,17 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
  }
-
+ */
       
 footer{
     position: relative;
     width: 100%;
     background:#0a6a5f66;
-    min-height: 100px;
+/*     min-height: 10px; */
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -1605,7 +1605,7 @@ footer{
     position: relative;
     width: 100%;
 /*     background:#0a6a5f66; */
-    min-height: 100px;
+/*     min-height: 100px; */
     padding: 20px 20px;
     display: flex;
     justify-content: center;
@@ -1626,17 +1626,17 @@ display: none;
     height: 85.5%;
     margin-bottom: 3.5rem;
 }
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
        
 footer{
     position: relative;
     width: 100%;
 /*     background:#0a6a5f66; */
-    min-height: 100px;
+/*     min-height: 100px; */
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -1657,17 +1657,17 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
        
 footer{
     position: relative;
     width: 100%;
 /*     background:#0a6a5f66; */
-    min-height: 100px;
+/*     min-height: 100px; */
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -1689,17 +1689,17 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
  bottom: -120%;
- }
+ } */
 
        
 footer{
     position: relative;
     width: 100%;
 /*     background:#0a6a5f66; */
-    min-height: 100px;
+/*     min-height: 100px; */
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -1721,17 +1721,17 @@ display: none;
     margin-bottom: 3.5rem;
 }
 
- footer{
+/*  footer{
      postition: absolute;
    bottom: -120%;
  }
-
+ */
        
 footer{
     position: relative;
     width: 100%;
 /*     background:#0a6a5f66; */
-    min-height: 100px;
+/*     min-height: 100px; */
     padding: 20px 50px;
     display: flex;
     justify-content: center;
