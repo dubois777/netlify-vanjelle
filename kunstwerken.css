@@ -1566,7 +1566,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
-      margin-bottom: 80%;
+      padding-top: 80%;
  }
 
       
@@ -1599,7 +1599,7 @@ display: none;
  footer{
      postition: absolute;
  bottom: -120%;
-      margin-bottom: 80%;
+      padding-top: 80%;
  }
 
         
