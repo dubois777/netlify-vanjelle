@@ -2120,12 +2120,18 @@ padding:0;
 }
 
 @media only screen and (max-width: 450px){
+
+    .shop{
+        padding-bottom: 90%;
+    }
+
+    
     .toggle{
           margin-bottom: -980%;
     }
-    #product-box8, #product-box9{
+/*     #product-box8, #product-box9{
         display:none;
-    }
+    } */
 }
 
 @media only screen and (max-width: 850px){
