@@ -1969,7 +1969,7 @@ padding:0;
         display : inline-block;
         width : 100px;
         height : 52px;
-        background-color: red;
+        background-color: balck;
         border-radius: 30px;
         border: 2px solid gray;
     }
@@ -2000,7 +2000,7 @@ padding:0;
            
     /* Checkbox checked toggle label bg color */
     .checkbox:checked + .toggle {
-        background-color: green;
+        background-color: white;
     }
            
     /* Checkbox vanished */
