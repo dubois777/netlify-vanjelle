@@ -1940,3 +1940,13 @@ padding:0;
    .toggle-checkbox:checked+.toggle-label:before {
       transform: translateX(35px);
    }
+
+
+#pagina2{
+    width: 14%;
+    height: 10%;
+}
+#pagina2 button{
+    border-radius: 43%;
+}
+    
