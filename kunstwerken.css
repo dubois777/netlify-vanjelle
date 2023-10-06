@@ -1806,7 +1806,7 @@ padding:0;
 display: none;
 } */
 
-        label.toggle {
+        .toggle label {
           margin-bottom: -880%;
             display:flex;
             justify-content: center;
