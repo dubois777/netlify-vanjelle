@@ -2035,4 +2035,26 @@ padding:0;
 }
 
 
+                @media only screen and (max-width: 1440){
+    .toggle{
+          margin-bottom: -680%;
+    }
+}
+
+
+                @media only screen and (max-width: 1660){
+    .toggle{
+          margin-bottom: -680%;
+    }
+}
+
+
+                @media only screen and (max-width: 1800){
+    .toggle{
+          margin-bottom: -680%;
+    }
+}
+
+
+
 
