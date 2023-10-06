@@ -517,7 +517,7 @@ footer .wave#wave4{
     justify-content: center;
     margin: auto;
     display: flex;
-
+  margin-bottom: 15px;
 }
 
 .product-a{
@@ -590,6 +590,7 @@ footer .wave#wave4{
     width: 60%;
     justify-content: center;
     margin: auto;
+        margin-bottom: 15px;
 }
 
 .product-a{
