@@ -2007,3 +2007,8 @@ padding:0;
     .checkbox { 
         display : none;
     }
+
+
+.toggle:hover{
+    cursor:pointer;
+}
