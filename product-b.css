@@ -478,3 +478,142 @@ footer .wave#wave4{
     color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width:375px){
+  .dutch, .engels{
+     display: none;
+ }
+  .dropdown{
+    display:none;
+  }
+
+     footer .social_icon,
+     footer #navbar{
+         position: relative;
+         margin: auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 10px 0;
+         flex-wrap: wrap;
+     }
+     
+     footer .social_icon li,
+     footer #navbar{
+         list-style: none;
+     }
+     
+     #product-a-text{
+        font-size: small;
+        color: white;
+        font-weight: 900;
+        padding-right: 5%;
+        padding-top: 50%;
+     }
+      
+ .logo{
+    height: 90px;
+    width:110px;
+    float: left;
+    margin-left: -30%;
+}
+
+.product-a-img{
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+
+}
+
+.product-a{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+   
+
+     footer{
+         position: relative;
+         width: 100%;
+         background:rgb(142, 190, 191);
+         min-height: 10px;
+         padding: 50px 50px;
+         display: block;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        }
+
+}
+
+
+@media only screen and (max-width : 450px){
+  .dropdown{
+    display:none;
+  }
+    
+ .dutch, .engels{
+     display: none;
+ }
+ .logo{
+    height: 90px;
+    width:110px;
+    float: left;
+    margin-left: -30%;
+}
+     footer .social_icon,
+     footer #navbar{
+         position: relative;
+         margin: auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 10px 0;
+         flex-wrap: wrap;
+     }
+     
+     footer .social_icon li,
+     footer #navbar{
+         list-style: none;
+     }
+     
+     #product-a-text{
+        font-size: small;
+        color: white;
+        font-weight: 900;
+        padding-right: 5%;
+        padding-top: 50%;
+     }
+      
+ .logo{
+    height: 90px;
+    width:110px;
+    float: left;
+    margin-left: -30%;
+}
+
+    .product-a-img{
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+}
+
+.product-a{
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+   
+
+     footer{
+         position: relative;
+         width: 100%;
+         background:rgb(142, 190, 191);
+         min-height: 10px;
+         padding: 50px 50px;
+         display: block;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        }
+
+}
+
