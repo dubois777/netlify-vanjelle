@@ -2015,9 +2015,8 @@ padding:0;
 
 @media only screen and (max-width: 450px){
     .toggle{
-        float:bottom;
-        position:absolute;
-        bottom:0;
+       position: absolute; 
+        bottom: 0; 
     }
 }
 
