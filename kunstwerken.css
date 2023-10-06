@@ -1806,6 +1806,10 @@ padding:0;
 display: none;
 } */
 
+        .toggle{
+          margin-bottom: -680%;
+    }
+       
         #footer {
         max-width: 100%;
         margin: 0 auto;
