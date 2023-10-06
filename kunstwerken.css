@@ -2121,7 +2121,7 @@ padding:0;
 
 @media only screen and (max-width: 450px){
     .toggle{
-          margin-bottom: -880%;
+          margin-bottom: -980%;
     }
 }
 
@@ -2130,7 +2130,7 @@ padding:0;
           margin-bottom: -580%;
     }
 }
-
+/* 
         @media only screen and (max-width: 1280){
     .toggle{
           margin-bottom: -680%;
@@ -2158,6 +2158,6 @@ padding:0;
     }
 }
 
-
+ */
 
 
