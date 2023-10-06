@@ -1807,7 +1807,11 @@ display: none;
 } */
 
         .toggle{
-          margin-bottom: -680%;
+          margin-bottom: -880%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:auto;
     }
        
         #footer {
