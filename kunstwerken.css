@@ -1907,11 +1907,11 @@ padding:0;
  body{
       text-align:center;
    }
-/*    .toggle {
+   .toggle {
       display: inline-block;
       width: 80px;
       height: 38px;
-      background-color: #8eeb60;
+      background-color: black;
       border-radius: 40px;
       position: relative;
       overflow: hidden;
@@ -1942,7 +1942,7 @@ padding:0;
    }
 
 
-#pagina2{
+/* #pagina2{
  width: 6%;
     height: 4%;
     padding: 5%;
