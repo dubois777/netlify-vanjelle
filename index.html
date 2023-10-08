@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 
-<body onload="checkCookie()">
+<body onload="checkCookie()",  onload="checkCookie2()">>
     <section id="header">
     
     <a href="./index.html"><img src="unnamed.jpg" class="logo" alt=""></a>
@@ -518,7 +518,7 @@ function getCookie(cname) {
   return "";
 }
 
-function checkCookie() {
+function checkCookie2() {
   let user = getCookie("vanjelle.netlify.app uses analytical cookies and other tracking technologies to offer you the best possible user experience. By using our website, you acknowledge and agree to our cookie policy.");
   // if (user != "") {
   //   alert("Welcome again " + user);
