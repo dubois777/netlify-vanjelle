@@ -270,7 +270,7 @@
   </ul>
 </div>
 
-    <div class="cookie-wrapper show">
+<!--     <div class="cookie-wrapper show">
         <header>
             <i class="bx bx-cookie"></i>
             <h2>Cookies</h2>
@@ -283,7 +283,7 @@
     <button class="cookie-button">Decline</button>
 </div>
     </div>
-    
+     -->
 
     <section id="footer">
       <footer>
@@ -478,6 +478,22 @@ function checkCookie() {
   }
 }
 </script>
+
+    <div id="demo"></div>
+
+<script>
+let text = "<p>Browser CodeName: " + navigator.appCodeName + "</p>" +
+"<p>Browser Name: " + navigator.appName + "</p>" +
+"<p>Browser Version: " + navigator.appVersion + "</p>" +
+"<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>" +
+"<p>Browser Language: " + navigator.language + "</p>" +
+"<p>Browser Online: " + navigator.onLine + "</p>" +
+"<p>Platform: " + navigator.platform + "</p>" +
+"<p>User-agent header: " + navigator.userAgent + "</p>";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
 </body>
     </head>
 </html>
