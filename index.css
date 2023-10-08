@@ -1416,7 +1416,7 @@ transition: .5s;
 
 }
 
-.wrapper{
+.cookie-wrapper{
   position:fixed;
   bottom: 50px;
   right: 20px;
@@ -1428,11 +1428,11 @@ transition: .5s;
   transition: right 0.3s ease;
 }
 
-.wrapper .show{
+.cookie-wrapper .show{
 right: 20px;
 }
 
-.wrapper header{
+.cookie-wrapper header{
   display: flex;
   align-items: center;
   column-gap: 15px;
@@ -1448,11 +1448,11 @@ header h2{
   font-size: 500;
 }
 
-.wrapper .data{
+.cookie-wrapper .data{
 margin-top: 16px;
 }
 
-.wrapper .data p{
+.cookie-wrapper .data p{
 color: #333;
   font-size: 16px;
 }
@@ -1466,7 +1466,7 @@ text-decoration: none;
 tex-decoration: underline;
 }
 
-.wrapper .buttons{
+.cookie-wrapper .cookie-buttons{
 margin-top: 16px;
   width: 100%;
   display: flex;
@@ -1474,7 +1474,7 @@ margin-top: 16px;
   justify-content: space-between;
 }
 
-.buttons .button{
+.cookie-buttons .cookie-button{
   border: none;
   color: #fff;
 width: calc(100% / 2 - 10px);
@@ -1485,6 +1485,6 @@ width: calc(100% / 2 - 10px);
   transition: all 0.2s ease;
 }
 
-.buttons .button:hover{
+.cookie-buttons .cookie-button:hover{
 background-color: #034bf1;
 }
