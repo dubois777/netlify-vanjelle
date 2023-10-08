@@ -12,8 +12,10 @@ cookieBox.classList.add("show")
       if(button.id == "button") {
        document.cookie = "cookieBy = dmd; max-age=" + 60*60*24*30;
     }
-  })
-)};
+    });
+  });
+    
+};
 
 
 window.addEventListener("load", executeCodes);
