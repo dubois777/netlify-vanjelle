@@ -1,7 +1,9 @@
-// const cookieBox =  document.querySelector('.wrapper');
-// const buttons =  document.querySelectorAll('.button');
+const cookieBox =  document.querySelector(".wrapper"),
+ buttons =  document.querySelectorAll(".button");
 
 const executeCodes = () => {
+
+  
   if(document.cookie.includes("dmd")) return;
 cookieBox.classList.add("show")
 
