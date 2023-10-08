@@ -1,5 +1,5 @@
-var cookieBox =  document.querySelector(".wrapper"),
- buttons =  document.querySelectorAll(".button");
+var cookieBox =  document.querySelector(".cookie-wrapper"),
+ buttons =  document.querySelectorAll(".cookie-button");
 
 var executeCodes = () => {
 
