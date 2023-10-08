@@ -471,7 +471,7 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-     user = prompt("Please enter your name:","      |   vanjelle.netlify.app uses analytical cookies and other tracking technologies to offer you the best possible user experience. By using our website, you acknowledge and agree to our cookie policy.");
+     user = prompt("vanjelle.netlify.app uses analytical cookies and other tracking technologies to offer you the best possible user experience. By using our website, you acknowledge and agree to our cookie policy.  |   Please enter your name:","");
      if (user != "" && user != null) {
        setCookie("username", user, 30);
      }
