@@ -1,7 +1,7 @@
-var cookieBox =  document.querySelector("cookie-wrapper"),
- buttons =  document.querySelectorAll("cookie-button");
+const cookieBox = document.querySelector(".cookie-wrapper"),
+ buttons = document.querySelectorAll(".cookie-button");
 
-var executeCodes = () => {
+const executeCodes = () => {
 
   
   if(document.cookie.includes("dmd")) return;
