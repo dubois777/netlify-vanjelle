@@ -639,10 +639,10 @@ footer .wave#wave4{
 }
 
 @media only screen and (max-width: 1440px){
-    .engels,
+/*     .engels,
     .dutch{
         display: none;
-    }
+    } */
 
     .logo{
         height: 90px;
@@ -655,10 +655,10 @@ footer .wave#wave4{
 }
 
 @media only screen and (max-width: 1280px){
- button .engels,
+/*  button .engels,
   button  .dutch{
         display: none;
-    }
+    } */
 
     .logo{
         height: 90px;
