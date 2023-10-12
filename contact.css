@@ -684,9 +684,9 @@ footer .wave#wave4{
             border-radius: 10px;
         }
         
-        .dutch, .engels{
+/*         .dutch, .engels{
             display: none;
-        }
+        } */
         
         #contact{
             height: 180vh;
@@ -759,9 +759,9 @@ footer .wave#wave4{
                 border-radius: 10px;
             }
             
-            .dutch, .engels{
+/*             .dutch, .engels{
                 display: none;
-            }
+            } */
             
             #contact{
                 height: 180vh;
