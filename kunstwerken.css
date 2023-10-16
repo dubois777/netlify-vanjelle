@@ -270,8 +270,7 @@ left: 60px;
 #product-box13,
 #product-box14,
 #product-box15,
-#product-box16,
-{
+#product-box16{
     position: relative;
     transition: 0.4s;
 
@@ -295,7 +294,7 @@ left: 60px;
 #product-box14:hover,
 #product-box14:hover,
 #product-box15:hover,
-#product-box16:hover,{
+#product-box16:hover{
     padding: 10px;
    
     transition: 0.4s;
