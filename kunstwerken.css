@@ -263,7 +263,15 @@ left: 60px;
 #product-box6,
 #product-box7,
 #product-box8,
-#product-box9{
+#product-box9,
+#product-box10,
+#product-box11,
+#product-box12,
+#product-box13,
+#product-box14,
+#product-box15,
+#product-box16,
+{
     position: relative;
     transition: 0.4s;
 
@@ -279,7 +287,15 @@ left: 60px;
 #product-box6:hover,
 #product-box7:hover,
 #product-box8:hover,
-#product-box9:hover{
+#product-box9:hover,
+#product-box10:hover,
+#product-box11:hover,
+#product-box12:hover,
+#product-box13:hover,
+#product-box14:hover,
+#product-box14:hover,
+#product-box15:hover,
+#product-box16:hover,{
     padding: 10px;
    
     transition: 0.4s;
