@@ -209,7 +209,7 @@ left: 60px;
  input[type=text]:focus + #list a{
     color:rgb(255, 249, 240) ;
     font-weight: bolder;
-    display: block;
+    display: inline-flex;
     
  }
 
