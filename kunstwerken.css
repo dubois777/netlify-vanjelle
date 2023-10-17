@@ -247,7 +247,7 @@ left: 60px;
 .shop-content{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, auto));
-   padding-top: 27%;
+   padding-top: 37%;
     gap: 1.5rem;
 
 }
