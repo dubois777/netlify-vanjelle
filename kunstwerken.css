@@ -273,7 +273,12 @@ left: 60px;
 #product-box13,
 #product-box14,
 #product-box15,
-#product-box16{
+#product-box16,
+#product-box17,
+#product-box18,
+#product-box19,
+#product-box20,
+#product-box21{
     position: relative;
     transition: 0.4s;
 
@@ -297,7 +302,12 @@ left: 60px;
 #product-box14:hover,
 #product-box14:hover,
 #product-box15:hover,
-#product-box16:hover{
+#product-box16:hover
+#product-box17:hover,
+#product-box18:hover,
+#product-box19:hover,
+#product-box20:hover,
+#product-box21:hover{
     padding: 10px;
    
     transition: 0.4s;
