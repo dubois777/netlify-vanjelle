@@ -173,7 +173,7 @@ left: 60px;
      border-radius: 35%;
      -webkit-transition: width 0.15s ease-in-out;
      transition: width 0.15s ease-in-out;
-       display: inline-flex;
+/*        display: inline-flex; */
   }
 
   /* When the input field gets focus,
@@ -199,10 +199,10 @@ left: 60px;
 .animals{
   display:inline-flex;    
  } 
-
+/* 
 #A2,#A3,#A4,#A5,#A6,#A7,#A8{
   display:inline-flex;    
- } 
+ }  */
 
  .zoekbar{
     background-color: #0a6a5f66;
