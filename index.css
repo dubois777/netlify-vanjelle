@@ -915,9 +915,9 @@ footer{
 #hero{
     height: 126vh;
 }
- .dutch, .engels{
+/*  .dutch, .engels{
      display: none;
- }
+ } */
  .logo{
     height: 90px;
     width:110px;
